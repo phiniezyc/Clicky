@@ -7,10 +7,10 @@ import { Card, Col } from 'react-materialize';
 
 const PicturesBox = () => (
     <div className='container cards'>
-       <Col m={6} s={12}>
-		<Card className='blue-grey darken-1' textClassName='white-text' title='Pictures Box' actions={[<a href='/'>This is a link</a>]}>
+        <Col m={6} s={12}>
+		<Card className='blue-grey darken-1' textClassName='white-text' title='Pictures Box'>
 		I am a very simple card.
-		</Card>
+	    </Card>
 </Col>
     </div>
 );
