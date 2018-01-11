@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import PicturesBox from './components/PicturesBox/PicturesBox';
 import ScoreBoard from './components/ScoreBoard/ScoreBoard';
 
-import friends from './friends';
+
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         <Navbar />
         {/* <JumbotronMaterialize /> */}
         <ScoreBoard  />
-        <PicturesBox friend={friends} />
+        <PicturesBox  />
 
 
       </div>
