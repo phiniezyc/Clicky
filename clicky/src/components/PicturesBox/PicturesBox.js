@@ -7,6 +7,7 @@ import Images from './Images';
 import friends from '../../friends';
 
 
+
 const PicturesBox = () => (
     <div className='container cards'>
         <Col m={6} s={12}>

@@ -3,6 +3,17 @@ import React from 'react';
 // import { Card, CardTitle } from 'react-materialize';
 
 const Images = ((props) => {
+    // function shuffle(a) {
+    //     for (let i = a.length - 1; i > 0; i--) {
+    //         const j = Math.floor(Math.random() * (i + 1));
+    //         [a[i], a[j]] = [a[j], a[i]];
+    //     }
+    //     return a;
+    // }
+
+    // const shuffledImages = shuffle(Images);
+    // console.log(shuffledImages);
+    
 
     return (
             <div>
