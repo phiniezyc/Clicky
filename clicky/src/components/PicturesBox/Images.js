@@ -15,13 +15,13 @@ class Images extends Component {
             return a;
         }
 
-        const shuffledImages= shuffle(this.props.imagesToDisplay); // code that shuffles images 
+        // const shuffledImages= shuffle(this.props.imagesToDisplay); // code that shuffles images 
     
     }
 
-    // hello() {
-    //     console.log("hello");
-    // }
+    hello() {
+        console.log("hello");
+    }
     
 
     // shuffle(a) {
@@ -37,12 +37,12 @@ class Images extends Component {
             <div>
                 {this.props.imagesToDisplay.map((image, i) => {
                     return (
-                        <div key={i} className='imageBoxes' onClick={this.shuffledImages}>
+                        <div key={i} className='imageBoxes' onClick={this.hello}>
                             <div className='nameDisplay'>
                             <h6 className='fontControl' key={image.name}>{image.name}</h6>
                             </div> 
                             <div>                          
-                            <img key={i} src={image.image} alt=''  onClick={this.shuffle}></img >
+                            <img key={i} src={image.image} alt=''  ></img >
                             </div> 
                         </div>
                     )
