@@ -9,7 +9,7 @@ const friends =
     }, {
         "id": 2,
         "name": "Mr. Krabs",
-        "image": "http://www.cartoon-clipart.co/amp/images/krabs2.png"
+        "image": "https://t6.rbxcdn.com/dc36ff922dc95d0be036f02aee4c93dc"
     }, {
         "id": 3,
         "name": "Squidward",
