@@ -1,7 +1,6 @@
 import React from 'react';
 import { Navbar, NavItem } from 'react-materialize';
 
-// import logo from '../logo.svg';
 
 const NavBar = () => (
     <div>

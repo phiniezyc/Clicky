@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import { Card, Col } from 'react-materialize';
+import { Card } from 'react-materialize';
 
 const Images = ((props) => {
     return (
