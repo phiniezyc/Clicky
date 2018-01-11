@@ -6,4 +6,39 @@
 
 .cards {
   margin-top: 40px;
+ 
+}
+
+.card-image {
+  /* max-width: 150px;
+  max-height: 150px; */
+}
+
+/* #cardSize {
+  max-width: 200px;
+  max-height: 200px;
+  display: inline-block;
+  margin: 10px;
+  
+} */
+
+img {
+  width: 150px;
+  height: 150px;
+  
+}
+
+.imageBoxes {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  background-color: beige;
+  display: inline-block;
+  color: blue;
+  
+}
+
+.fontControl {
+  font-size: 20px;
+  text-align: center;
 }
