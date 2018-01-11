@@ -6,14 +6,17 @@ import Navbar from './components/Navbar/Navbar';
 import PicturesBox from './components/PicturesBox/PicturesBox';
 import ScoreBoard from './components/ScoreBoard/ScoreBoard';
 
+import friends from './friends';
+
 class App extends Component {
   render() {
     return (
       <div>
         <Navbar />
         {/* <JumbotronMaterialize /> */}
-        <ScoreBoard />
-        <PicturesBox />
+        <ScoreBoard  />
+        <PicturesBox friend={friends} />
+
 
       </div>
     );
